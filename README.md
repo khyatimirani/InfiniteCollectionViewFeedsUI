@@ -1,8 +1,9 @@
 # InfiniteCollectionViewFeedsUI
-1)Default light mode 
+Created infinite vertical scrolling feeds UI with UICollectionView, which repeates it self after the last index of data.
+Have used VFL for Rendering the UI. 
+Have declared static 4 entites locally, no API integration is implemented.
+Enabled dark mode.
+![Light mode](https://github.com/khyatimirani/InfiniteCollectionViewFeedsUI/blob/master/lightmode.gif)
 
-2)After enabling dark mode 
-![](https://github.com/khyatimirani/InfiniteCollectionViewFeedsUI/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202019-11-10%20at%2008.30.33.png)
-
-![](https://github.com/khyatimirani/InfiniteCollectionViewFeedsUI/blob/master/darkmode.png)
+![Dark mode](https://github.com/khyatimirani/InfiniteCollectionViewFeedsUI/blob/master/darkmode.gif)
 

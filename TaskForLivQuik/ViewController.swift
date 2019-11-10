@@ -18,7 +18,8 @@ class LivQuikFeedsController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initialSetUp()
-    }
+      
+     }
     
    
     func initialSetUp() {

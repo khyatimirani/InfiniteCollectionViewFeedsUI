@@ -120,7 +120,7 @@ class FeedCell: UICollectionViewCell {
     
     // setup all subviews and set constraints.
     func setupViews() {
-        backgroundColor = UIColor.white
+        backgroundColor = UIColor.systemBackground
         
         addSubview(nameLabel)
         addSubview(statusTextView)

@@ -10,6 +10,7 @@ import UIKit
 
 let cellId = "cellId"
 
+
 class LivQuikFeedsController: UICollectionViewController {
     
     var posts = [Post]()
@@ -23,8 +24,12 @@ class LivQuikFeedsController: UICollectionViewController {
     func initialSetUp() {
         setUpFeedsData()
         navigationItem.title = "Khyati's Feed"
+        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = textAttributes
+        navigationItem.titleView?.backgroundColor = UIColor.systemBackground
         collectionView?.alwaysBounceVertical = true
-        collectionView?.backgroundColor = UIColor(white: 0.95, alpha: 1)
+        collectionView.overrideUserInterfaceStyle = .dark
+        collectionView?.backgroundColor = UIColor.systemBackground
         //register the cell with the collectionView
         collectionView?.register(FeedCell.self, forCellWithReuseIdentifier: cellId)
     }
